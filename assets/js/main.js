@@ -12,5 +12,5 @@ if (!nombre || nombre.trim() === "") {
 } else if (password.length < 8) {
   console.log("Error: La contraseña debe tener al menos 8 caracteres.");
 } else {
-  console.log(`✅ Registro exitoso. ¡Hola, ${nombre}!`);
+  console.log(`✅ Registro exitoso. ¡Bienvenido, ${nombre}!`);
 }
